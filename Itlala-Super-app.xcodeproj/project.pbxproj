@@ -17,7 +17,25 @@
 		EB37435B17F5E30700488E05 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB37435A17F5E30700488E05 /* Default@2x.png */; };
 		EB37435D17F5E30700488E05 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB37435C17F5E30700488E05 /* Default-568h@2x.png */; };
 		EB37436017F5E30700488E05 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB37435E17F5E30700488E05 /* MainStoryboard.storyboard */; };
-		EB37436317F5E30700488E05 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37436217F5E30700488E05 /* ViewController.m */; };
+		EB37436A17F5E33400488E05 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37436917F5E33400488E05 /* Parse.framework */; };
+		EB37436C17F5E36100488E05 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37436B17F5E36100488E05 /* AudioToolbox.framework */; };
+		EB37436E17F5E36800488E05 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37436D17F5E36800488E05 /* CFNetwork.framework */; };
+		EB37437017F5E37800488E05 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37436F17F5E37800488E05 /* CoreLocation.framework */; };
+		EB37437217F5E38400488E05 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37437117F5E38400488E05 /* libz.1.1.3.dylib */; };
+		EB37437417F5E38A00488E05 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37437317F5E38A00488E05 /* MobileCoreServices.framework */; };
+		EB37437617F5E39000488E05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37437517F5E39000488E05 /* QuartzCore.framework */; };
+		EB37437817F5E39800488E05 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37437717F5E39800488E05 /* Security.framework */; };
+		EB37437A17F5E39C00488E05 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37437917F5E39C00488E05 /* StoreKit.framework */; };
+		EB37437C17F5E3A200488E05 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37437B17F5E3A200488E05 /* SystemConfiguration.framework */; };
+		EB37438417F5E97D00488E05 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37438317F5E97D00488E05 /* Employee.m */; };
+		EB37438D17F5EDB300488E05 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37438C17F5EDB300488E05 /* HomeViewController.m */; };
+		EB37439017F5EE4900488E05 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37438F17F5EE4900488E05 /* LoginViewController.m */; };
+		EB37439517F6053D00488E05 /* UIImageView+UIImageView_LazyLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37439317F6053D00488E05 /* UIImageView+UIImageView_LazyLoad.m */; };
+		EB37439817F609EC00488E05 /* temp_pp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EB37439717F609EC00488E05 /* temp_pp.jpg */; };
+		EB37439B17F60BC100488E05 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37439A17F60BC100488E05 /* MapViewController.m */; };
+		EB37439D17F60DBB00488E05 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB37439C17F60DBB00488E05 /* MapKit.framework */; };
+		EB3743A017F60EB100488E05 /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = EB37439E17F60EB000488E05 /* Annotation.m */; };
+		EB3743A317F6170E00488E05 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3743A117F6170D00488E05 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +53,32 @@
 		EB37435A17F5E30700488E05 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		EB37435C17F5E30700488E05 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		EB37435F17F5E30700488E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		EB37436117F5E30700488E05 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB37436217F5E30700488E05 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB37436917F5E33400488E05 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EB37436B17F5E36100488E05 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EB37436D17F5E36800488E05 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EB37436F17F5E37800488E05 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EB37437117F5E38400488E05 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		EB37437317F5E38A00488E05 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EB37437517F5E39000488E05 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EB37437717F5E39800488E05 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		EB37437917F5E39C00488E05 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EB37437B17F5E3A200488E05 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EB37438217F5E97D00488E05 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		EB37438317F5E97D00488E05 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		EB37438B17F5EDB300488E05 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EB37438C17F5EDB300488E05 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EB37438E17F5EE4900488E05 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EB37438F17F5EE4900488E05 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EB37439317F6053D00488E05 /* UIImageView+UIImageView_LazyLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+UIImageView_LazyLoad.m"; sourceTree = "<group>"; };
+		EB37439417F6053D00488E05 /* UIImageView+UIImageView_LazyLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+UIImageView_LazyLoad.h"; sourceTree = "<group>"; };
+		EB37439717F609EC00488E05 /* temp_pp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = temp_pp.jpg; sourceTree = "<group>"; };
+		EB37439917F60BC100488E05 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		EB37439A17F60BC100488E05 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		EB37439C17F60DBB00488E05 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		EB37439E17F60EB000488E05 /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; };
+		EB37439F17F60EB100488E05 /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		EB3743A117F6170D00488E05 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		EB3743A217F6170E00488E05 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +86,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB37439D17F60DBB00488E05 /* MapKit.framework in Frameworks */,
+				EB37437C17F5E3A200488E05 /* SystemConfiguration.framework in Frameworks */,
+				EB37437A17F5E39C00488E05 /* StoreKit.framework in Frameworks */,
+				EB37437817F5E39800488E05 /* Security.framework in Frameworks */,
+				EB37437617F5E39000488E05 /* QuartzCore.framework in Frameworks */,
+				EB37437417F5E38A00488E05 /* MobileCoreServices.framework in Frameworks */,
+				EB37437217F5E38400488E05 /* libz.1.1.3.dylib in Frameworks */,
+				EB37437017F5E37800488E05 /* CoreLocation.framework in Frameworks */,
+				EB37434B17F5E30600488E05 /* CoreGraphics.framework in Frameworks */,
+				EB37436E17F5E36800488E05 /* CFNetwork.framework in Frameworks */,
+				EB37436C17F5E36100488E05 /* AudioToolbox.framework in Frameworks */,
 				EB37434717F5E30600488E05 /* UIKit.framework in Frameworks */,
 				EB37434917F5E30600488E05 /* Foundation.framework in Frameworks */,
-				EB37434B17F5E30600488E05 /* CoreGraphics.framework in Frameworks */,
+				EB37436A17F5E33400488E05 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +126,17 @@
 		EB37434517F5E30600488E05 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB37439C17F60DBB00488E05 /* MapKit.framework */,
+				EB37437B17F5E3A200488E05 /* SystemConfiguration.framework */,
+				EB37437917F5E39C00488E05 /* StoreKit.framework */,
+				EB37437717F5E39800488E05 /* Security.framework */,
+				EB37437517F5E39000488E05 /* QuartzCore.framework */,
+				EB37437317F5E38A00488E05 /* MobileCoreServices.framework */,
+				EB37437117F5E38400488E05 /* libz.1.1.3.dylib */,
+				EB37436F17F5E37800488E05 /* CoreLocation.framework */,
+				EB37436D17F5E36800488E05 /* CFNetwork.framework */,
+				EB37436B17F5E36100488E05 /* AudioToolbox.framework */,
+				EB37436917F5E33400488E05 /* Parse.framework */,
 				EB37434617F5E30600488E05 /* UIKit.framework */,
 				EB37434817F5E30600488E05 /* Foundation.framework */,
 				EB37434A17F5E30600488E05 /* CoreGraphics.framework */,
@@ -83,11 +147,12 @@
 		EB37434C17F5E30600488E05 /* Itlala-Super-app */ = {
 			isa = PBXGroup;
 			children = (
-				EB37435517F5E30600488E05 /* AppDelegate.h */,
-				EB37435617F5E30600488E05 /* AppDelegate.m */,
-				EB37435E17F5E30700488E05 /* MainStoryboard.storyboard */,
-				EB37436117F5E30700488E05 /* ViewController.h */,
-				EB37436217F5E30700488E05 /* ViewController.m */,
+				EB3743A617F6173D00488E05 /* Assistants */,
+				EB3743A517F6173400488E05 /* Resources */,
+				EB37438117F5E96400488E05 /* Models */,
+				EB37437F17F5E94900488E05 /* Delegate */,
+				EB37438017F5E95500488E05 /* UI */,
+				EB37437E17F5E94000488E05 /* Views */,
 				EB37434D17F5E30600488E05 /* Supporting Files */,
 			);
 			path = "Itlala-Super-app";
@@ -105,6 +170,74 @@
 				EB37435C17F5E30700488E05 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB37437E17F5E94000488E05 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EB37439F17F60EB100488E05 /* Annotation.h */,
+				EB37439E17F60EB000488E05 /* Annotation.m */,
+				EB37438E17F5EE4900488E05 /* LoginViewController.h */,
+				EB37438F17F5EE4900488E05 /* LoginViewController.m */,
+				EB37438B17F5EDB300488E05 /* HomeViewController.h */,
+				EB37438C17F5EDB300488E05 /* HomeViewController.m */,
+				EB37439917F60BC100488E05 /* MapViewController.h */,
+				EB37439A17F60BC100488E05 /* MapViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EB37437F17F5E94900488E05 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				EB37435517F5E30600488E05 /* AppDelegate.h */,
+				EB37435617F5E30600488E05 /* AppDelegate.m */,
+			);
+			name = Delegate;
+			sourceTree = "<group>";
+		};
+		EB37438017F5E95500488E05 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EB37435E17F5E30700488E05 /* MainStoryboard.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		EB37438117F5E96400488E05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB37438217F5E97D00488E05 /* Employee.h */,
+				EB37438317F5E97D00488E05 /* Employee.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EB37439617F6054A00488E05 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				EB37439417F6053D00488E05 /* UIImageView+UIImageView_LazyLoad.h */,
+				EB37439317F6053D00488E05 /* UIImageView+UIImageView_LazyLoad.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		EB3743A517F6173400488E05 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EB37439717F609EC00488E05 /* temp_pp.jpg */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		EB3743A617F6173D00488E05 /* Assistants */ = {
+			isa = PBXGroup;
+			children = (
+				EB3743A117F6170D00488E05 /* Reachability.m */,
+				EB3743A217F6170E00488E05 /* Reachability.h */,
+				EB37439617F6054A00488E05 /* Categories */,
+			);
+			name = Assistants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +296,7 @@
 				EB37435B17F5E30700488E05 /* Default@2x.png in Resources */,
 				EB37435D17F5E30700488E05 /* Default-568h@2x.png in Resources */,
 				EB37436017F5E30700488E05 /* MainStoryboard.storyboard in Resources */,
+				EB37439817F609EC00488E05 /* temp_pp.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +309,13 @@
 			files = (
 				EB37435317F5E30600488E05 /* main.m in Sources */,
 				EB37435717F5E30600488E05 /* AppDelegate.m in Sources */,
-				EB37436317F5E30700488E05 /* ViewController.m in Sources */,
+				EB37438417F5E97D00488E05 /* Employee.m in Sources */,
+				EB37438D17F5EDB300488E05 /* HomeViewController.m in Sources */,
+				EB37439017F5EE4900488E05 /* LoginViewController.m in Sources */,
+				EB37439517F6053D00488E05 /* UIImageView+UIImageView_LazyLoad.m in Sources */,
+				EB37439B17F60BC100488E05 /* MapViewController.m in Sources */,
+				EB3743A017F60EB100488E05 /* Annotation.m in Sources */,
+				EB3743A317F6170E00488E05 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +400,10 @@
 		EB37436717F5E30700488E05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Itlala-Super-app/Itlala-Super-app-Prefix.pch";
 				INFOPLIST_FILE = "Itlala-Super-app/Itlala-Super-app-Info.plist";
@@ -271,6 +415,10 @@
 		EB37436817F5E30700488E05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Itlala-Super-app/Itlala-Super-app-Prefix.pch";
 				INFOPLIST_FILE = "Itlala-Super-app/Itlala-Super-app-Info.plist";
